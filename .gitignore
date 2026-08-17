@@ -1,0 +1,11 @@
+# Hasil build
+/bin/
+*.exe
+# jaga-jaga bila di-build dengan `go build ./cmd/vpn` tanpa -o
+/vpn
+
+# Secret: JANGAN PERNAH di-commit
+*.key
+
+# Berkas uji transfer (folder-nya tetap dilacak lewat .gitkeep)
+*.bin
